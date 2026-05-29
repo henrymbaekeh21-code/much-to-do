@@ -1,0 +1,30 @@
+# Version control
+.git
+.gitignore
+
+# Documentation
+*.md
+docs/
+
+# Test files
+*_test.go
+testdata/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Build artifacts
+bin/
+dist/
+
+# Kubernetes / infra
+kubernetes/
+scripts/
+evidence/
+
+# Logs
+*.log
+tmp/
